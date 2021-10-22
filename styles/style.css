@@ -1,0 +1,1061 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+	margin: 0px;
+	padding: 5px 10px;
+	
+	font-weight: bold;
+}
+.navbar-brand span{
+	color: #fff;
+}
+.navbar-nav li{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-nav li a{
+	padding: 12px 20px !important;
+ 	font-size: 1.2rem;
+ 	margin: 1px 10px;
+ 	color: #fff !important;
+}
+.navbar-nav li a{
+	padding: 5px 10px !important;
+ 	font-size: 1rem;
+ 	margin: 7px 10px;
+ 	color: #000;
+}
+.top-box{
+	margin-top: -400px;
+	justify-content: center;
+	position: absolute;
+}
+.into-slide{
+	width: 100%;
+	height: auto;
+}
+.slide-but{
+	background-color: #0000006b;
+	padding: 20px 10px;
+	height: auto;
+	width: 100%;
+	border: 0.5px solid #eae9e8;
+}
+.box-1{
+	display: flex;
+}
+.box-1 a{
+	margin: 0px 10px;
+	border-radius: 25px;
+}
+.box-2{
+	display: flex;
+	padding: 20px 30px;
+}
+
+/*properties list*/
+
+.prop-cont{
+	width: 100%;
+	height: auto;
+	background-color: fbfbff;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+.home-cont{
+	width: 100%;
+	height: auto;
+	background-color: fbfbff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0px;
+}
+.prop-cont-1{
+	padding: 50px 0px;
+}
+.prop-box{
+	border: 1px solid #f0a8ab;
+	border-radius: 30px;
+	width: 100%;
+	height: auto;
+}
+.prop-box h3{
+	padding: 25px 30px;
+}
+.prop-box-1{
+	display: flex;
+}
+.prop-box-2{
+	margin-bottom: 20px;
+	margin-left: 30px;
+	border-radius: 25px;
+}
+.prop-box-2 h5{
+	padding: 10px 40px;
+	color: #fff;
+	font-weight: lighter;
+	margin: 0px;
+}
+.prop-img{
+	width: 100%;
+	height: 300px;
+}
+
+/*Rental Properties*/
+.home-cont h2{
+	padding: 15px 0px;
+	text-align: center;
+	margin-top: 15px;
+}
+.cont-space{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.itb{
+	position: relative;
+}
+.img-top-box{
+	width: 259px;
+	height: auto;
+	position: absolute;
+}
+.inner-text h6{
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+	width: 30%;
+	margin-left: 175px;
+	margin-top: 5px;
+}
+.inner-text-1{
+	margin-top: 193px;
+	display: flex;
+	justify-content: space-between;
+}
+.it-1{
+	padding: 5px;
+	color: #fff;
+}
+.it-2{
+	background-color: red;
+	padding: 5px 5px;
+	color: #fff;
+	background-color: #f10c52;
+}
+.card-body div a{
+	color: #000;
+}
+.card-body div a:hover {
+  	color: red;
+}
+.ct{
+	font-size: 14px;
+}
+.cn{
+	font-size: 10px;
+}
+.bt{
+	font-size: 10px;
+}
+.bt a{
+	color: #ffff;
+	text-decoration: none;
+}
+.ft{
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+.f-icon{
+	justify-content: center;
+}
+.f-icon img{
+	width: 80px;
+	height: 80px;
+	margin: 10px 100px;
+}
+.f-icon p{
+	text-align: center;
+	padding: 5px 5px;
+}
+.testi-box{
+	margin: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 10px;
+}
+.testi-innerbox{
+	display: flex;
+}
+.testi-innerbox img{
+	width: 100px;
+	height: 95px;
+	border-radius: 50px;
+}
+.testi-innerbox-1 h5{
+	padding-left: 20px;
+	padding-top: 25px;
+}
+.testi-innerbox-1 p{
+	padding-left: 20px;
+}
+.testi-innerbox-2{
+	margin: 10px 5px;
+}
+.q-img{
+	width: 20px;
+	height: 25px;
+}
+.q1-img{
+	width: 20px;
+	height: 25px;
+	margin-left: 450px;
+}
+.testi-innerbox-2 p{
+	padding-top: 15px;
+	padding-left: 5px;
+}
+.t-img{
+	text-align: center;
+}
+.t-img img{
+	width: 450px;
+	height: auto;
+	margin: 25px 25px;
+}
+.foot-cont{
+	background-color: #2b2a2a;
+	height: auto;
+	width: 100%;
+	
+	color: #fff;
+}
+.foot-in{
+	padding: 20px 5px;
+}
+.foot-inline img{
+	width: 300px;
+	height: auto;
+}
+.foot-inline h4{
+	color: #0066ff;
+}
+.foot-inline p{
+	padding-top: 5px;
+}
+.foot-icon{
+	display: flex;
+}
+.foot-icon i{
+	padding-top: 8px;
+	padding-right: 10px;
+}
+.cw{
+	background-color: #000;
+}
+.cw-1{
+	padding-right: auto;
+	padding-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.cw-1 p{
+	margin-bottom: 0px;
+	color: #fff;
+}
+
+/*Properties Page*/
+	/*banner*/
+	.properti-ban{
+		background-image: url(../images/property-banner.jpg);
+		width: 100%;
+		height: auto;
+		min-height: 250px;
+		background-size: cover;
+	}
+
+/*Product page*/
+
+	/*banner*/
+	.pro-ban{
+		background-image: url(../images/product-ban.jpg);
+		width: 100%;
+		height: auto;
+		min-height: 250px;
+		background-size: cover;
+	}
+
+	/*in-banner*/
+	.pro-box{
+		justify-content: center;
+		padding-top: auto;
+		padding-bottom: auto;
+	}
+	.into-pro{
+		width: 100%;
+		height: auto;
+		padding-top: 45px;
+	}
+
+	/*bread crumb*/
+	.BC{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.breadcrumb {
+		padding-top: 10px;
+		font-weight: bold;
+	}
+	.breadcrumb-item a{
+		text-decoration: none;
+	}
+
+	/*discription*/
+	.pd{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.db{
+		display: flex;
+		padding: 10px 0px;
+	}
+	.db i{
+		color: orange;
+	}
+	.dis-box-2{
+		width: 100%;
+		height: auto;
+		border-radius: 5px;
+	}
+	.db1{
+		margin-top: 5px;
+		margin-bottom: 20px;
+	}
+	.db2 h6{
+		padding: 10px;
+	}
+	.db3{
+		display: flex;
+	}
+	.db3 button{
+		margin: 0px 5px;
+		padding: 5px 15px;
+		border-radius: 20px;
+		font-size: 12px;
+	}
+	.db3 input{
+		width: 100px;
+		margin: 0px 5px;
+	}
+	.db3 h5 i{
+		color: #000;
+	}
+	.db4{
+		margin-top: 10px;
+	}
+	.db5 iframe{
+		width: 100%;
+		height: 200px;
+	}
+
+/*Vehicle Page*/
+	/*banner*/
+	.veh-ban{
+		background-image: url(../images/vehicle-ban.jpg);
+		width: 100%;
+		height: auto;
+		min-height: 250px;
+		background-size: cover;
+	}
+	
+/* About */
+	.about-ban{
+		background-image: url(../images/about-ban.jpg);
+		width: 100%;
+		height: auto;
+		min-height: 250px;
+		background-size: cover;
+	}
+	.ap{
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	.ai img{
+		width: 100%;
+		height: auto;
+	}
+	.ai1{
+		text-align: center;
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	.ai1 h2{
+		color: primary;
+	}
+	.ai2{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.ai3{
+		display: flex;
+		align-items: center;
+	}
+	.ai3 h6{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+/* Contact */
+	.cf{
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	.cf1{
+		display: flex;
+	}
+	.cf-ban{
+		background-image: url(../images/contact-ban.jpg);
+		width: 100%;
+		height: auto;
+		min-height: 250px;
+		background-size: cover;
+	}
+
+/*Service*/
+	.sc{
+		background-color: #F2F6F7;
+		width: 100%;
+		height: auto;
+		min-height: 900px;
+	}
+	.sc1{
+		margin-top: 50px;
+	}
+	.sc2 h2{
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.sc3{
+		margin-bottom: 100px;
+	}
+	.sc4{
+		margin-top: 20px;
+		justify-content: space-between;
+	}
+	.sc5{
+		background-color: #fff;
+		width:340px;
+		height: 300px;
+		margin: 20px 10px;
+		box-shadow: 5px 10px 8px #888888;
+	}
+	.sc5:hover {
+		border-bottom: 3px solid #0D6EFD;
+		height: 297px;
+	}
+	.sc6{
+		text-align: center;
+	}
+	.sc6 i{
+		color: #0D6EFD;
+		font-size: 50px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		padding-left: auto;
+		padding-right: auto;
+	}
+	.sc6 h4{
+		font-weight: bold;
+	}
+	.sc6 h4:hover {
+		color: #0D6EFD;
+	}
+
+
+	/*login*/
+	.logc{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.logc1{
+		justify-content: center;
+	}
+	.logc2{
+		text-align: center;
+	}
+	.logc3{
+		text-align: left;
+		padding-top: 50px;
+	}
+	.logc4{
+		display: flex;
+		justify-content: center;
+	}
+	.logc4 button{
+		margin-top: 10px;
+		border-radius: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+/*mobile Device*/
+@media screen and (min-width: 320px) and (max-width: 575.98px) { 
+	/*Form Box*/
+		
+		.slide-but{
+			display: none;
+		}
+		
+		.box-1 a{
+			display: none;
+		}
+
+	/*properties list*/
+
+.prop-cont{
+	width: 90%;
+	height: auto;
+	background-color: fbfbff;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+.sub{
+	padding: 0px;
+	margin: 0px;
+}
+.prop-box{
+	border: 1px solid #f0a8ab;
+	border-radius: 30px;
+	width: 100%;
+	height: auto;
+}
+.prop-box h3{
+	/*padding: 25px 30px;*/
+	text-align: center;
+}
+.prop-box-1{
+	display: block;
+}
+.prop-box-2{
+	margin: 5px;
+	border-radius: 25px;
+}
+.prop-box-2 h5{
+	padding: 10px 40px;
+	color: #fff;
+	font-weight: lighter;
+	margin: 0px;
+}
+.prop-img{
+	width: 100%;
+	height: 300px;
+}
+/*.sub{
+	padding: 0px 10px;
+}*/
+
+	/*Testimonial*/
+.q1-img{
+	width: 20px;
+	height: 25px;
+	margin-left: 400px;
+}
+.testi-innerbox-2 p{
+	padding-top: 15px;
+	padding-left: 5px;
+}
+.t-img{
+	text-align: center;
+}
+.t-img img{
+	width: 100%;
+	height: auto;
+	margin: 20px 0px;
+}
+/*Product-discription*/
+	.db3 button{
+		margin: 0px 5px;
+		padding: 5px 10px;
+		border-radius: 20px;
+		font-size: 11px;
+	}
+	.db2{
+		text-align: center;
+	}
+	.db3 {
+		justify-content: center;
+	}
+	.border-end{
+		display: none;
+	}
+	
+	/* about */
+	.ai2{
+		display: block;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.ai3{
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.ai3 h6{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	/*Service*/
+	.sc{
+		background-color: #F2F6F7;
+		width: 100%;
+		height: auto;
+		min-height: 2300px;
+	}
+	.sc1{
+		margin-top: 10px;
+	}
+	.sc2 h2{
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.sc3{
+		margin-bottom: 0px;
+	}
+	.sc5{
+		background-color: #fff;
+		width:400px;
+		height: 320px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 5px 10px 8px #888888;
+	}
+	.sc6 i{
+		color: #0D6EFD;
+		font-size: 50px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		padding-left: auto;
+		padding-right: auto;
+	}
+
+	/*login*/
+	.logc4{
+		display: block;
+		justify-content: center;
+	}
+}
+
+/*Mobile Device*/
+@media screen and (min-width: 576px) and (max-width: 767.98px) { 
+	/*Form Box*/
+		.top-box{
+			margin-top: -170px;
+			justify-content: center;
+			position: absolute;
+		}
+
+	/*properties list*/
+
+	.prop-cont{
+		width: 100%;
+		height: auto;
+		background-color: fbfbff;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		padding: 0px;
+	}
+	.prop-cont-1{
+		padding: 25px 0px;
+	}
+	.prop-box{
+		border: 1px solid #f0a8ab;
+		border-radius: 30px;
+		width: 100%;
+		height: auto;
+	}
+	.prop-box h3{
+		text-align: center;
+		/*padding: 25px 30px;*/
+	}
+	.prop-box-1{
+		display: flex;
+		justify-content: center;
+	}
+	.prop-box-2{
+		margin-bottom: 20px;
+		margin-left: 30px;
+		border-radius: 25px;
+	}
+	.prop-img{
+		margin: 50px 0px;
+	}
+	.prop-img img{
+		/*width: 100%;
+		height: auto;*/
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	/*Rental Properties*/
+.card{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+.img-top-box{
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+.inner-text h6{
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+	width: 30%;
+	margin-left: auto;
+	margin-top: 5px;
+}
+.inner-text-1{
+	margin-top: 178px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.ft{
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+/*Our Features*/
+	.f-icon{
+		justify-content: center;
+	}
+	.f-icon img{
+		width: 80px;
+		height: 80px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.f-icon p{
+		text-align: center;
+		padding: 5px 5px;
+	}
+	/*Product-discription*/
+	.db3 button{
+		margin: 0px 5px;
+		padding: 5px 10px;
+		border-radius: 20px;
+		font-size: 11px;
+	}
+	/*Service*/
+	.sc{
+		background-color: #F2F6F7;
+		width: 100%;
+		height: auto;
+		min-height: 2250px;
+	}
+	.sc1{
+		margin-top: 50px;
+	}
+	.sc2 h2{
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.sc3{
+		margin-bottom: 0px;
+	}
+	.sc5{
+		background-color: #fff;
+		width:400px;
+		height: 320px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 5px 10px 8px #888888;
+	}
+}
+
+/*laptop Device*/
+@media screen and (min-width: 768px) and (max-width: 991.98px) { 
+	/*Form Box*/
+		.top-box{
+			margin-top: -220px;
+			justify-content: center;
+			position: absolute;
+		}
+
+	/*properties list*/
+
+	.prop-cont{
+		width: 100%;
+		height: auto;
+		background-color: fbfbff;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		padding: 0px;
+	}
+	.prop-cont-1{
+		padding: 25px 0px;
+	}
+	.prop-box{
+		border: 1px solid #f0a8ab;
+		border-radius: 30px;
+		width: 100%;
+		height: auto;
+	}
+	.prop-box h3{
+		text-align: center;
+		/*padding: 25px 30px;*/
+	}
+	.prop-box-1{
+		display: flex;
+		justify-content: center;
+	}
+	.prop-box-2{
+		margin-bottom: 20px;
+		margin-left: 30px;
+		border-radius: 25px;
+	}
+	.prop-img{
+		margin: 50px 0px;
+	}
+	.prop-img img{
+		/*width: 100%;
+		height: auto;*/
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	/*Rental Properties*/
+	.card{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.itb{
+		position: relative;
+	}
+	.img-top-box{
+		width: 100%;
+		height: auto;
+		position: absolute;
+	}
+	.inner-text h6{
+		text-align: center;
+		color: #fff;
+		padding: 5px;
+		width: 30%;
+		margin-left: 230px;
+		margin-top: 5px;
+	}
+	.inner-text-1{
+		margin-top: 268px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.it-1{
+		padding: 5px;
+		color: #fff;
+		margin-bottom: 0px;
+	}
+	.it-2{
+		background-color: red;
+		padding: 5px 5px;
+		color: #fff;
+		background-color: #f10c52;
+		margin-bottom: 0px;
+	}
+
+	/*Our Features*/
+	.f-icon{
+		justify-content: center;
+	}
+	.f-icon img{
+		width: 80px;
+		height: 80px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.f-icon p{
+		text-align: center;
+		padding: 5px 5px;
+	}
+
+	/*Product-discription*/
+	.dis-box img{
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	/*Service*/
+	.sc{
+		background-color: #F2F6F7;
+		width: 100%;
+		height: auto;
+		min-height: 1200px;
+	}
+}
+
+/*Desktop Device*/
+@media screen and (min-width: 992px) and (max-width: 1199.98px) { 
+	/*Form Box*/
+		.top-box{
+			margin-top: -300px;
+			justify-content: center;
+			position: absolute;
+		}
+
+	/*Properties Box*/
+	.prop-box-2 h5{
+		padding: 10px 20px;
+		color: #fff;
+		font-weight: lighter;
+		margin: 0px;
+	}
+
+	/*Rental Properties*/
+
+.img-top-box{
+	width: 215px;
+	height: auto;
+	position: absolute;
+}
+.inner-text h6{
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+	width: 30%;
+	margin-left: 145px;
+	margin-top: 5px;
+}
+.inner-text-1{
+	margin-top: 149px;
+	display: flex;
+	justify-content: space-between;
+}
+.ft{
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+/*Our Features*/
+.f-icon{
+	justify-content: center;
+}
+.f-icon img{
+	width: 80px;
+	height: auto;
+	margin: 10px 65px;
+}	
+
+/*Testimonial*/
+.q1-img{
+	width: 20px;
+	height: 25px;
+	margin-left: 400px;
+}
+.testi-innerbox-2 p{
+	padding-top: 15px;
+	padding-left: 5px;
+}
+.t-img{
+	text-align: center;
+}
+.t-img img{
+	width: 400px;
+	height: auto;
+	margin: 20px 0px;
+}
+
+/*Footer*/
+	.foot-inline img{
+		width: 200px;
+		height: auto;
+	}
+/*Product-discription*/
+	.db3 button{
+		margin: 0px 5px;
+		padding: 5px 10px;
+		border-radius: 20px;
+		font-size: 12px;
+	}
+	
+	/* about */
+	.ai1{
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	/*Service*/
+	.sc{
+		background-color: #F2F6F7;
+		width: 100%;
+		height: auto;
+		min-height: 900px;
+	}
+	.sc1{
+		margin-top: 50px;
+	}
+	.sc2 h2{
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.sc3{
+		margin-bottom: 10px;
+	}
+	.sc5{
+		background-color: #fff;
+		width:300px;
+		height: 320px;
+		margin: 20px 10px;
+		box-shadow: 5px 10px 8px #888888;
+	}
+	.sc5:hover {
+		border-bottom: 3px solid #0D6EFD;
+		height: 317px;
+	}
+	
+}
+
+/*XX*/
+@media screen and (min-width: 1200px) and (max-width: 1400px) { 
+	/*Form Box*/
+		.top-box{
+			margin-top: -300px;
+			justify-content: center;
+			position: absolute;
+		}
+}
+	
+
