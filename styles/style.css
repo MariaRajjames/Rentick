@@ -62,21 +62,8 @@ body{
 }
 
 /*properties list*/
-
 .prop-cont{
-	width: 100%;
-	height: auto;
 	background-color: fbfbff;
-	margin-top: 30px;
-	margin-bottom: 20px;
-	padding: 0px;
-}
-.home-cont{
-	width: 100%;
-	height: auto;
-	background-color: fbfbff;
-	margin-top: 50px;
-	margin-bottom: 50px;
 	padding: 0px;
 }
 .prop-cont-1{
@@ -85,8 +72,6 @@ body{
 .prop-box{
 	border: 1px solid #f0a8ab;
 	border-radius: 30px;
-	width: 100%;
-	height: auto;
 }
 .prop-box h3{
 	padding: 25px 30px;
@@ -111,14 +96,17 @@ body{
 }
 
 /*Rental Properties*/
+.home-cont{
+	background-color: fbfbff;
+	padding: 0px;
+}
 .home-cont h2{
 	padding: 15px 0px;
 	text-align: center;
-	margin-top: 15px;
 }
 .cont-space{
-	margin-top: 20px;
-	margin-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 .itb{
 	position: relative;
@@ -289,8 +277,6 @@ body{
 	/*banner*/
 	.pro-ban{
 		background-image: url(../images/product-ban.jpg);
-		width: 100%;
-		height: auto;
 		min-height: 250px;
 		background-size: cover;
 	}
@@ -562,7 +548,7 @@ body{
 }
 .prop-img{
 	width: 100%;
-	height: 300px;
+	height: 180px;
 }
 /*.sub{
 	padding: 0px 10px;
@@ -601,6 +587,36 @@ body{
 	}
 	.border-end{
 		display: none;
+	}
+	.img-top-box{
+	width: 290px;
+	height: auto;
+	position: absolute;
+}
+	.inner-text h6{
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+	width: 30%;
+	margin-left: auto;
+	margin-top: 5px;
+}
+.inner-text-1{
+	margin-top: 220px;
+	display: flex;
+	justify-content: space-between;
+}
+.it-1{
+		padding: 5px;
+		color: #fff;
+		margin-bottom: 0px;
+	}
+	.it-2{
+		background-color: red;
+		padding: 5px 5px;
+		color: #fff;
+		background-color: #f10c52;
+		margin-bottom: 0px;
 	}
 	
 	/* about */
