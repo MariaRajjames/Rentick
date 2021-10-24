@@ -112,22 +112,25 @@ body{
 	position: relative;
 }
 .img-top-box{
-	width: 259px;
+	width: 100%;
 	height: auto;
 	position: absolute;
+}
+.inner-text{
+	display: flex;
+	justify-content: flex-end;
 }
 .inner-text h6{
 	text-align: center;
 	color: #fff;
 	padding: 5px;
 	width: 30%;
-	margin-left: 175px;
 	margin-top: 5px;
 }
 .inner-text-1{
-	margin-top: 193px;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 70%;
 }
 .it-1{
 	padding: 5px;
@@ -511,49 +514,70 @@ body{
 
 	/*properties list*/
 
-.prop-cont{
-	width: 90%;
-	height: auto;
-	background-color: fbfbff;
-	margin-top: 30px;
-	margin-bottom: 20px;
-	padding: 0px;
-}
-.sub{
-	padding: 0px;
-	margin: 0px;
-}
-.prop-box{
-	border: 1px solid #f0a8ab;
-	border-radius: 30px;
-	width: 100%;
-	height: auto;
-}
-.prop-box h3{
-	/*padding: 25px 30px;*/
-	text-align: center;
-}
-.prop-box-1{
-	display: block;
-}
-.prop-box-2{
-	margin: 5px;
-	border-radius: 25px;
-}
-.prop-box-2 h5{
-	padding: 10px 40px;
-	color: #fff;
-	font-weight: lighter;
-	margin: 0px;
-}
-.prop-img{
-	width: 100%;
-	height: 180px;
-}
-/*.sub{
-	padding: 0px 10px;
-}*/
+	.prop-cont{
+		padding: 0px;
+	}
+	.prop-cont-1{
+		padding: 25px 10px;
+	}
+	.prop-box h3{
+		text-align: center;
+	}
+	.prop-box-1{
+		display: flex;
+		justify-content: center;
+	}
+	.prop-box-2{
+		margin-bottom: 10px;
+		margin-left: 10px;
+		border-radius: 20px;
+	}
+	.prop-box-2 h5{
+		padding: 10px 10px;
+		color: #fff;
+		font-weight: lighter;
+		margin: 0px;
+		font-size: 15px;
+	}
+	.prop-img{
+		height: auto;
+	}
 
+	/*rental*/
+	.home-cont h2{
+		padding: 15px 0px;
+		text-align: center;
+	}
+	.card{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.itb{
+		position: relative;
+	}
+	.img-top-box{
+		width: 100%;
+		height: 250px;
+		position: absolute;
+	}
+	.inner-text{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.inner-text h6{
+		text-align: center;
+		color: #fff;
+		padding: 5px;
+		width: 30%;
+		margin-top: 5px;
+	}
+	.inner-text-1{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	
 	/*Testimonial*/
 .q1-img{
 	width: 20px;
@@ -589,7 +613,7 @@ body{
 		display: none;
 	}
 	.img-top-box{
-	width: 290px;
+	width: 100%;
 	height: auto;
 	position: absolute;
 }
@@ -709,7 +733,6 @@ body{
 	}
 	.prop-box h3{
 		text-align: center;
-		/*padding: 25px 30px;*/
 	}
 	.prop-box-1{
 		display: flex;
@@ -731,35 +754,40 @@ body{
   		margin-right: auto;
 	}
 
-	/*Rental Properties*/
-.card{
-		margin-top: 10px;
-		margin-bottom: 10px;
+/*rental*/
+	.card{
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	.home-cont h2{
+		padding: 15px 0px;
+		text-align: center;
 	}
-.img-top-box{
-	width: 100%;
-	height: auto;
-	position: absolute;
-}
-.inner-text h6{
-	text-align: center;
-	color: #fff;
-	padding: 5px;
-	width: 30%;
-	margin-left: auto;
-	margin-top: 5px;
-}
-.inner-text-1{
-	margin-top: 178px;
-	margin-bottom: 0px;
-	display: flex;
-	justify-content: space-between;
-}
-.ft{
-	font-size: 11px;
-	margin: 0;
-	padding: 0;
-}
+	.itb{
+		position: relative;
+	}
+	.img-top-box{
+		width: 100%;
+		height: 240px;
+		position: absolute;
+	}
+	.inner-text{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.inner-text h6{
+		text-align: center;
+		color: #fff;
+		padding: 5px;
+		width: 30%;
+		margin-top: 5px;
+	}
+	.inner-text-1{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0px;
+		padding-top: 160px;
+	}
 
 /*Our Features*/
 	.f-icon{
@@ -867,7 +895,11 @@ body{
   		margin-right: auto;
 	}
 
-	/*Rental Properties*/
+	/*rental*/
+	.home-cont h2{
+		padding: 15px 0px;
+		text-align: center;
+	}
 	.card{
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -877,33 +909,25 @@ body{
 	}
 	.img-top-box{
 		width: 100%;
-		height: auto;
+		height: 330px;
 		position: absolute;
+	}
+	.inner-text{
+		display: flex;
+		justify-content: flex-end;
 	}
 	.inner-text h6{
 		text-align: center;
 		color: #fff;
 		padding: 5px;
 		width: 30%;
-		margin-left: 230px;
 		margin-top: 5px;
 	}
 	.inner-text-1{
-		margin-top: 268px;
 		display: flex;
 		justify-content: space-between;
-	}
-	.it-1{
-		padding: 5px;
-		color: #fff;
-		margin-bottom: 0px;
-	}
-	.it-2{
-		background-color: red;
-		padding: 5px 5px;
-		color: #fff;
-		background-color: #f10c52;
-		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-top: 250px;
 	}
 
 	/*Our Features*/
@@ -957,31 +981,36 @@ body{
 		margin: 0px;
 	}
 
-	/*Rental Properties*/
-
-.img-top-box{
-	width: 215px;
-	height: auto;
-	position: absolute;
-}
-.inner-text h6{
-	text-align: center;
-	color: #fff;
-	padding: 5px;
-	width: 30%;
-	margin-left: 145px;
-	margin-top: 5px;
-}
-.inner-text-1{
-	margin-top: 149px;
-	display: flex;
-	justify-content: space-between;
-}
-.ft{
-	font-size: 11px;
-	margin: 0;
-	padding: 0;
-}
+	/*rental*/
+	.home-cont h2{
+		padding: 15px 0px;
+		text-align: center;
+	}
+	.itb{
+		position: relative;
+	}
+	.img-top-box{
+		width: 100%;
+		height: 210px;
+		position: absolute;
+	}
+	.inner-text{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.inner-text h6{
+		text-align: center;
+		color: #fff;
+		padding: 5px;
+		width: 30%;
+		margin-top: 5px;
+	}
+	.inner-text-1{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0px;
+		padding-top: 130px;
+	}
 
 /*Our Features*/
 .f-icon{
